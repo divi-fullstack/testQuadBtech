@@ -1,0 +1,74 @@
+/* Error Border CSS */
+a {
+  color: #5c5776;
+}
+.form-control.error {
+  border-color: #ff0000;
+}
+.error-select > div {
+  border-color: #ff0000;
+}
+
+/* min height css */
+.min-h-500px {
+  min-height: 500px;
+}
+
+/* Custom Card CSS */
+.navbar-default .navbar-nav .nav-item .nav-link:hover,
+.navbar-default .navbar-nav .nav-item .nav-link.active {
+  color: #754ffe;
+}
+.videos_wrapper img {
+  width: 100vw;
+  height: calc(450px / 2);
+  object-fit: cover;
+}
+.videos_wrapper .para {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+
+/* sundram css */
+
+.confirm-box__actions {
+  display: flex;
+
+  justify-content: center !important;
+  padding: 3rem 0 0.5rem 0;
+}
+
+
+/*css start by shekhar*/
+.search-cntnr{position: relative;display: flex; align-items: center;}
+.search-cntnr i{position: absolute; margin-left: 1rem;}
+.search-cntnr input[type="search"]{padding-left: 2rem;}
+.add-brand-btn .btn-primary {background-color:#363535;border:0px;}
+.rounded-outer .rounded-3{background-color:#363535;}
+.rounded-outer .rounded-3 i::before{color:#fff}
+.alternate-color-bg tr:nth-child(even){background-color:#e8e7ed;}
+nav.black-bg-color{background-color:#363535 !important ;}
+.new-hover-effect a:hover,.new-hover-effect a.active{color:#d48f65 !important;}
+.full-cntnr.login-bg{background-image: url(../../blurred-background.jpg);background-repeat: no-repeat;width: 100%;background-size: cover;}
+.signin-btn .btn-primary{background-color: #363535 !important;border:0px !important}
+.signin-btn .btn-primary:hover{border:0px !important}
+.signin-logo img{max-width:150px;}
+.login-wrap{position: relative;}
+.signin-logo{text-align: center;position: absolute;z-index: 1;top: 15%;}
+/*css end by shekhar*/
+table.text-wrap-table td{white-space: break-spaces;}
+/*css end by shekhar*/
+
+/* Form Switch CSS */
+.custom_form_switch .form-check-input:checked,
+.custom_form_switch .form-check-input:focus{
+  background-color:rgb(24,17,60) !important;
+  box-shadow: none;
+}
+
+.simplebar-content-wrapper{
+  overflow-y: auto!important;
+  height: 100vh!important;
+}
